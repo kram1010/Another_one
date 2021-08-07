@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+body
+{
+    background: url(foe1.jpg)no-repeat;
+    background-size: cover;
+}
+.table
+{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    box-shadow: 1px 12px 20px 2px aqua;
+    padding: 15px;
+    margin-top: 5px;
+
+}
+.memu-bar
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 1;
+    text-align: right;
+
+}
+.memu-bar ul{
+ display: inline-block;
+ list-style: none;
+}
+.memu-bar ul li{
+    display: inline-block;
+    margin-right: 70px;
+}
+.memu-bar ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    border: none;
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+}
+.table h2{
+    text-decoration:none;
+    background-color: tomato;
+    color: white;
+    font-family:cursive;
+    text-align:center;
+    margin: 10%;
+    margin-left: 15px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.table h2:hover{
+    background-color: turquoise;
+    color: purple;
+    border: none;
+    border-bottom: 4px solid orange;
+    transition: 0 .5s;
+}
